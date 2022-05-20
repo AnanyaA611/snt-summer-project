@@ -1,10 +1,14 @@
+//lending and borrowing money from a bank
 
 import java.util.*;
 class loan
+
 {
+    
     double[] bal=new double[100]; int[] AC=new int[100];  //maximum bank capacity =100 hence array size= 100
     Scanner sc = new Scanner(System.in);
     int c=0;
+    
     void input()  //input function that takes all the required inputs from th euser and calls the respective functions accordingly 
     {  int i,accNo;
         for(i=0;i<100;i++)
