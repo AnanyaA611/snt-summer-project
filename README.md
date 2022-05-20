@@ -1,6 +1,8 @@
 //lending and borrowing money from a bank
 
+
 import java.util.*;
+
 class loan
 
 {
