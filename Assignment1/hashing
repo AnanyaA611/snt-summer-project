@@ -4,15 +4,15 @@ start = time.time()
 
 str_val = input("enter : ")
 i=0
-print("The string hash value is : " + str(hash(str_val)))
+print("The string hash value is :    " + str(hash(str_val)))
 while i>=0 : #loop to find the positive number (i) to be apopended 
     str2= str_val+str(i) #appending 
     if str(hash(str_val))>str(hash(str2)) :  #checking if the hash value becomes smaller 
-        print("The string hash value is : " + str(hash(str2)))
+        print("The new string hash value is : " + str(hash(str2)))
+        print("the new string is :"+ str2)
         print(i)
         break 
     i=i+1
     
 end = time.time()  
 print("Execution time of the program is", end-start) 
-
