@@ -1,0 +1,5 @@
+DESCRIPTION :
+A program that takes some data as string input. 
+Then it tries to find a positive number x such that when x is appended to the end of the string, the SHA256 hash of this new string is less than the target.
+
+OUTPUT:
